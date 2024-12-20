@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+
+.title {
+  font-size:100px;
+  position: absolute;
+  left: 25%;
+}
+
+.button {
+  position: absolute;
+  top: 60%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  
+  width: 270px;
+  height: 110px;
+  line-height: 1;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 3px solid #8C82FC;
+  background: #fff;
+  color: #8C82FC;
+  border-radius: 40px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all .35s;
+};
+
+.button:hover {
+  background: #8C82FC;
+  color: #fff;
+}
+
+input[type=text] {
+  position: absolute;
+  top: 267px;
+  left: 26%;
+  display:block;
+  width: 800px;
+  height:40px;
+  border-radius: 20px;
+  position: relative;
+  padding: 4px 18px 0;
+}
+
+.error{
+  border: 1px solid;
+  margin: 10px 0px;
+  padding: 15px 10px 15px 50px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #D8000C;
+  background-color: #FFBABA;
+  background-image: url('https://i.imgur.com/GnyDvKN.png');
+}
+
+.success{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: block;
+  font-size:140px;
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 4px 18px 0;
+  box-shadow: 4px 5px 5px black;
+  background-color: rgba(109, 151, 208, 0.8);
+}
